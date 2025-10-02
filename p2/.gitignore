@@ -1,0 +1,65 @@
+# Project 2 Git Ignore
+
+# Intel MLC binary
+tools/mlc.exe
+tools/mlc
+
+# Raw data files (keep structure, ignore content)
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.dat
+
+# Generated plots
+plots/*.png
+plots/*.pdf
+plots/*.svg
+
+# Auto-generated config
+SYSTEM_CONFIG_AUTO.md
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+src/*.o
+src/*.exe
+src/CMakeFiles/
+src/CMakeCache.txt
+src/cmake_install.cmake
+src/Makefile
+
+# Logs
+*.log
+
+# Compiled kernels (in bin/)
+bin/cache_miss_kernel
+bin/tlb_miss_kernel
+bin/cache_miss_kernel.exe
+bin/tlb_miss_kernel.exe
+bin/Debug/
+bin/Release/
