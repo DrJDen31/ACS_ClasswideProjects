@@ -10,7 +10,7 @@ A detailed, step-by-step guide for building the code, running benchmarks, and re
 
 If you only need the final outcomes, consult:
 
-- [report](https://github.com/DrJDen31/ACS_ClasswideProjects/blob/master/FinalProjects/TrackA/report/ACS_Final_Track_A_Report.pdf) (compiled from `report/A4-Report.tex`) for the full narrative and figures.
+- [Report](https://github.com/DrJDen31/ACS_ClasswideProjects/blob/master/FinalProjects/TrackA/report/ACS_Final_Track_A_Report.pdf) (compiled from `report/A4-Report.tex`) for the full narrative and figures.
 - `docs/FINAL_RESULTS.md` and `docs/FINAL_COMPLETE_STATUS.md` for numerical summaries and a description of the experimental workflow.
 
 ---
