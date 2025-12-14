@@ -1,0 +1,39 @@
+{
+  "config": {
+    "dataset_name": "synthetic_gaussian",
+    "mode": "ann_ssd",
+    "dimension": 128,
+    "num_vectors": 700000,
+    "k": 10,
+    "vectors_per_block": 128,
+    "page_size_bytes": 0,
+    "hardware_level": "L3",
+    "max_steps": 3281,
+    "portal_degree": 8,
+    "simulation_mode": "cheated",
+    "controller_flops_GF": 0,
+    "per_block_unit_flops_GF": 0
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 50,
+    "recall_at_k": 0.96,
+    "qps": 0.86108,
+    "latency_us_p50": 205167,
+    "latency_us_p95": 240472,
+    "latency_us_p99": 250636,
+    "effective_search_time_s": 0.0054795,
+    "effective_qps": 9124.92,
+    "host_search_time_s": 58.0666,
+    "compute_time_s": 0.00361497,
+    "analytic_search_time_s": 0.0054795,
+    "avg_blocks_visited": 3281,
+    "avg_internal_reads": 3281,
+    "avg_distances_computed": 43210.2,
+    "io": {
+      "num_reads": 164050,
+      "bytes_read": 10751180800
+    },
+    "device_time_us": 1864.53
+  }
+}
