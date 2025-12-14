@@ -2,6 +2,8 @@
 
 Exploiting high-IOPS SSDs for billion-scale vector search with quantified recall-latency-cost trade-offs, plus an experimental graph-in-flash ANN-in-SSD model that assumes no system DRAM.
 
+[Report](https://github.com/DrJDen31/ACS_ClasswideProjects/blob/master/FinalProjects/TrackB/report/ACS_Final_Track_B_Project.pdf)
+
 ## Quick Start
 
 For step-by-step instructions on building the project, running all experiments, generating plots, and refreshing the report figures, see:
