@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset_name": "SIFT1M",
+    "dimension": 128,
+    "num_vectors": 100000,
+    "k": 10,
+    "ef_search": 512,
+    "M": 24,
+    "ef_construction": 300,
+    "mode": "hnswlib"
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 200,
+    "recall_at_k": 1.0,
+    "qps": 1379.5247990923713,
+    "qps_search": 1379.5247990923713,
+    "qps_total": 28.434822945568644,
+    "latency_us_p50": 711.8609998997272,
+    "latency_us_p95": 979.4255999850063,
+    "latency_us_p99": 1408.623149804949,
+    "build_time_s": 6.888651707000008,
+    "search_time_s": 0.1449774590000743,
+    "effective_search_time_s": 0.1449774590000743,
+    "effective_qps": 1379.5247990923713,
+    "io": {
+      "num_reads": 0,
+      "bytes_read": 0
+    },
+    "device_time_us": 0.0
+  }
+}

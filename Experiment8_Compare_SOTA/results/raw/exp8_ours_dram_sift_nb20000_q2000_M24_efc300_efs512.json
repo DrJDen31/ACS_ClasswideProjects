@@ -1,0 +1,38 @@
+{
+  "config": {
+    "dataset_name": "SIFT1M",
+    "dimension": 128,
+    "num_vectors": 20000,
+    "k": 10,
+    "ef_search": 512,
+    "M": 24,
+    "ef_construction": 300,
+    "cache_capacity": 10000,
+    "cache_policy": "lru",
+    "mode": "dram",
+    "ssd_num_channels": 4,
+    "ssd_queue_depth_per_channel": 64,
+    "ssd_base_read_latency_us": 80,
+    "ssd_internal_read_bandwidth_GBps": 3
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 2000,
+    "recall_at_k": 0.9999,
+    "qps": 1739.71,
+    "qps_search": 1739.71,
+    "qps_total": 104.546,
+    "latency_us_p50": 569.06,
+    "latency_us_p95": 741.217,
+    "latency_us_p99": 875.662,
+    "build_time_s": 17.9721,
+    "search_time_s": 1.14962,
+    "effective_search_time_s": 1.14962,
+    "effective_qps": 1739.71,
+    "io": {
+      "num_reads": 0,
+      "bytes_read": 0
+    },
+    "device_time_us": 0
+  }
+}
