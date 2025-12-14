@@ -1,0 +1,28 @@
+{
+  "config": {
+    "dataset_name": "synthetic_gaussian",
+    "dimension": 128,
+    "num_vectors": 100000,
+    "k": 10,
+    "ef_search": 200,
+    "M": 16,
+    "ef_construction": 200,
+    "mode": "tiered"
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 2000,
+    "recall_at_k": 0.47415,
+    "qps": 4.06919,
+    "latency_us_p50": 3160.68,
+    "latency_us_p95": 4474.38,
+    "latency_us_p99": 6376.13,
+    "build_time_s": 484.676,
+    "search_time_s": 6.70351,
+    "io": {
+      "num_reads": 33683425,
+      "bytes_read": 17245913600
+    },
+    "device_time_us": 1.05485e+07
+  }
+}

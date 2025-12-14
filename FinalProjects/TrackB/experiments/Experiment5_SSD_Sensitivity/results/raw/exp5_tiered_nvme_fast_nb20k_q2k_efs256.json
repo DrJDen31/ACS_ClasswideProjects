@@ -1,0 +1,36 @@
+{
+  "config": {
+    "dataset_name": "synthetic_gaussian",
+    "dimension": 128,
+    "num_vectors": 20000,
+    "k": 10,
+    "ef_search": 256,
+    "M": 24,
+    "ef_construction": 300,
+    "cache_capacity": 10000,
+    "cache_policy": "lru",
+    "mode": "tiered",
+    "ssd_num_channels": 8,
+    "ssd_queue_depth_per_channel": 64,
+    "ssd_base_read_latency_us": 40,
+    "ssd_internal_read_bandwidth_GBps": 6
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 2000,
+    "recall_at_k": 0.99785,
+    "qps": 47.6127,
+    "latency_us_p50": 3960.63,
+    "latency_us_p95": 5128.34,
+    "latency_us_p99": 6197.28,
+    "build_time_s": 33.7647,
+    "search_time_s": 8.22263,
+    "effective_search_time_s": 8.67066,
+    "effective_qps": 230.663,
+    "io": {
+      "num_reads": 5722582,
+      "bytes_read": 2929961984
+    },
+    "device_time_us": 448030
+  }
+}

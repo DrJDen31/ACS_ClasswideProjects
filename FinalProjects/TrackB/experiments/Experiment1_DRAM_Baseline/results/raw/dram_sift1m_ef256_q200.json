@@ -1,0 +1,25 @@
+{
+  "config": {
+    "dataset_name": "SIFT1M",
+    "dimension": 128,
+    "num_vectors": 1000000,
+    "k": 10,
+    "mode": "dram"
+  },
+  "aggregate": {
+    "k": 10,
+    "num_queries": 200,
+    "recall_at_k": 0.1445,
+    "qps": 0.0242076,
+    "latency_us_p50": 11668.4,
+    "latency_us_p95": 17499.8,
+    "latency_us_p99": 23248.1,
+    "build_time_s": 8258.36,
+    "search_time_s": 2.49908,
+    "io": {
+      "num_reads": 0,
+      "bytes_read": 0
+    },
+    "device_time_us": 0
+  }
+}

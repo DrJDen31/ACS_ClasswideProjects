@@ -1,0 +1,24 @@
+{
+  "name": "sift20k_M24_efc300_efs512",
+  "config": {
+    "dataset_name": "SIFT20k",
+    "base_path": "/mnt/c/Users/jaden/OneDrive/Documents/RPI/Fall2025/AdvancedComputerSystems/Projects/TrackB/B2/data/SIFT1M/sift/sift_base.fvecs",
+    "query_path": "/mnt/c/Users/jaden/OneDrive/Documents/RPI/Fall2025/AdvancedComputerSystems/Projects/TrackB/B2/data/SIFT1M/sift/sift_query.fvecs",
+    "groundtruth_path": "/mnt/c/Users/jaden/OneDrive/Documents/RPI/Fall2025/AdvancedComputerSystems/Projects/TrackB/B2/data/SIFT1M/sift/sift_groundtruth.ivecs",
+    "num_base": 20000,
+    "num_queries": 2000,
+    "dim": 128,
+    "k": 10,
+    "M": 24,
+    "ef_construction": 300,
+    "ef_search": 512
+  },
+  "aggregate": {
+    "recall_at_k": 0.99995,
+    "build_time_s": 0.4654,
+    "search_time_s": 0.0806,
+    "qps": 24806.624,
+    "qps_search": 24806.624,
+    "qps_total": 3662.872
+  }
+}
