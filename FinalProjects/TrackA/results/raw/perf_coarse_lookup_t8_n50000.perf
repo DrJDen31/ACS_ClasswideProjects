@@ -1,0 +1,16 @@
+# started on Sat Dec 13 16:19:28 2025
+
+
+ Performance counter stats for '/mnt/c/Users/jaden/OneDrive/Documents/RPI/Fall2025/AdvancedComputerSystems/Projects/TrackA/A4/benchmarks/benchmark --strategy coarse --workload lookup --threads 8 --size 50000':
+
+        2898367543      cycles                                                      
+         583597399      instructions              #    0.20  insn per cycle         
+   <not supported>      LLC-load-misses                                             
+   <not supported>      LLC-store-misses                                            
+
+       0.459513833 seconds time elapsed
+
+       0.229776000 seconds user
+       1.578462000 seconds sys
+
+
